@@ -1,0 +1,64 @@
+/*
+ ID: ayush.s3
+ LANG: C++
+ PROG: gift1
+*/
+
+#include<iostream>
+#include<cstring>
+#include<fstream>
+using namespace std;
+int main()
+{
+	ofstream fout ("gift1.out");
+	ifstream fin ("gift1.in");
+	int np;
+	fin>>np;
+	char names[np][16];
+	int matrix[np][np];
+	
+	int i,j,k;
+	for(i=0;i<np;i++)
+		fin>>names[i];
+	
+	for(i=0;i<np;i++)
+		for(j=0;j<np;j++)
+			matrix[i][j]=0;
+		
+		
+	for(i=0;i<np;i++)
+	{
+		char x[16];
+		fin>>x;
+		int m,n,g;
+		fin>>m>>n;
+		for(j=0;j<np;j++)
+			if(strcmp(names[j],x)==0)
+				g=j;
+		
+		int amount=0;
+		if(n>0)	
+			amount=m/n;
+
+		for(k=1;k<=n;k++)
+		{
+			char y[16];
+			fin>>y;
+			for(j=0;j<np;j++)
+				if(strcmp(names[j],y)==0)
+				{
+					matrix[g][j]+=amount;
+					matrix[j][g]-=amount;
+				}
+		}
+		
+	}
+	for(i=0;i<np;i++)
+	{
+		int sum=0;
+		for(j=0;j<np;j++)
+			sum=sum+matrix[i][j];
+		fout<<names[i]<<" "<<sum<<"\n";
+	}
+	return 0;
+}

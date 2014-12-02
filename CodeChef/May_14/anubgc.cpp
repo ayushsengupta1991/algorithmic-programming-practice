@@ -1,0 +1,72 @@
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+using namespace std;
+long long int gcdLL(long long int x,long long int y)// x is less than y
+{
+	if(x==y)
+		return x;
+	else	return gcdLL(y%x,x);
+}
+long long int valuePerDigit(long long int n,short digit)
+{
+	long long int x=n,sum=0;
+	int d[20];
+	int i,size;
+	for(size=0;x>0;)
+	{
+		d[size]=x%10;
+		x=x/10;
+		size++;
+	}
+	if(digit!=0)
+	{
+		if(d[size-1]>digit)
+			sum+=(d[size-1]-2)*pow(9,size-1);
+		else
+			sum+=(d[size-1]-1)*pow(9,size-1);
+	}
+	else
+	{
+		sum+=(d[size-1]-1)*pow(9,size-1);
+	}
+	for(i=size-2;i>=0;i--)
+	{
+			//if(d[i]==0) i--;
+		if(d[i]>digit)
+		{
+			sum=sum+(d[i]-1)*pow(9,i);
+		}
+		else
+		{
+			sum=sum+(d[i])*pow(9,i);
+		}
+			
+	}
+	
+	return (n-sum);
+}
+int main()
+{
+	long t;
+	scanf("%ld",&t);
+	while(t--)
+	{
+		long long int n;
+		scanf("%lld",&n);
+		if(n<10)
+			printf("1/10\n");
+		else
+		{
+			long long int sum=0;
+			short x;
+			for(x=0;x<10;x++)
+			{
+				sum=sum+valuePerDigit(n,x);
+			}
+			long long int g=gcdLL(sum,n*10);
+			printf("%lld/%lld\n",sum/g,(n*10)/g);
+		}
+	}
+	return 0;
+}

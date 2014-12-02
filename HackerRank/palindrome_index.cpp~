@@ -1,0 +1,29 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+int solve(char a[])
+{
+	int i=0,j=strlen(a)-1;
+	for(;i<=j;i++,j--)
+	{
+		if(a[i]!=a[j])
+		{
+			if(a[j-1]==a[i])
+				return j;
+			else return i;
+		}
+	}
+	return -1;
+}
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		char str[100010];
+		cin>>str;
+		cout<<solve(str)<<"\n";
+	}
+	return 0;    
+}

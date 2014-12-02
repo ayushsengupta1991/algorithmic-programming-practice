@@ -1,0 +1,29 @@
+#include<iostream>
+#include<algorithm>
+#include<cstdio>
+#define LL long long int
+using namespace std;
+int main()
+{
+	long n,t;
+	scanf("%ld",&t);
+	while(t--)
+	{
+		scanf("%ld",&n);
+		LL *a=new LL [n];
+		LL *b=new LL [n];
+		long i,j;
+		for(i=0;i<n;i++)
+			scanf("%lld",&a[i]);
+		sort(a,a+n);
+		i=0;
+		for(j=0;j<n;j+=2,i++)
+			b[j]=a[i];
+		for(j=1;j<n;j+=2,i++)
+			b[j]=a[i];
+		for(j=0;j<n;j++)
+			cout<<b[j]<<" ";
+		cout<<"\n";
+	}
+	return 0;
+}

@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+void check(int n)
+{
+	int i=n;
+	cout<<i<<"\n";
+}

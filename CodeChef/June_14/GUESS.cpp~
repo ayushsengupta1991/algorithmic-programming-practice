@@ -1,0 +1,35 @@
+#include<iostream>
+#define long long int LL
+using namespace std;
+LL gcd(LL m,LL n) // m>n
+{
+	if(m<n)
+		return gcd(n,m);
+	else if(m%n==0)
+		return n;
+	else	return gcd(n,m%n);
+}
+
+int main()
+{
+	LL t;
+	cin>>t;
+	while(t--)
+	{
+		LL m,n;
+		LL evenN,evenM;
+		cin>>n>>m;
+		if(n%2==0)
+			evenN=n/2;
+		else evenN=(n-1)/2;
+		if(m%2==0)
+			evenM=m/2;
+		else evenM=(m-1)/2;
+		LL comb=evenN*(m-evenM)+(n-evenN)*evenM;
+		if(comb==0)
+			cout<<"0/"<<m*n<<"\n";
+		else
+			cout<<comb/gcd(m*n,comb)<<"/"<<(m*n)/gcd(m*n,comb)<<"\n";
+	}
+	return 0;
+}

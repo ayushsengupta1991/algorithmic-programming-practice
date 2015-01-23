@@ -1,0 +1,659 @@
+1 0 0 4
+0
+Invalid state:=2 0 1
+Invalid state:=0 0 1
+Valid state:=1 1 1
+Invalid state:=1 -1 1
+1 1 1 3
+0
+Invalid state:=2 1 2
+Invalid state:=0 1 2
+Check:=3
+Invalid state:=1 2 2
+Valid state:=1 0 2
+1 0 2 4
+0
+Invalid state:=2 0 3
+Invalid state:=0 0 3
+Valid state:=1 1 3
+Invalid state:=1 -1 3
+1 1 3 3
+0
+Invalid state:=2 1 4
+Invalid state:=0 1 4
+Check:=1
+Valid state:=1 2 4
+Valid state:=1 0 4
+1 0 4 4
+1
+Invalid state:=2 0 5
+Invalid state:=0 0 5
+Valid state:=1 1 5
+Invalid state:=1 -1 5
+1 1 5 3
+1
+Invalid state:=2 1 6
+Invalid state:=0 1 6
+Check:=3
+Invalid state:=1 2 6
+Valid state:=1 0 6
+1 0 6 4
+1
+Invalid state:=2 0 7
+Invalid state:=0 0 7
+Valid state:=1 1 7
+Invalid state:=1 -1 7
+1 1 7 3
+1
+Invalid state:=2 1 8
+Invalid state:=0 1 8
+Check:=1
+Valid state:=1 2 8
+Valid state:=1 0 8
+1 0 8 4
+2
+Invalid state:=2 0 9
+Invalid state:=0 0 9
+Valid state:=1 1 9
+Invalid state:=1 -1 9
+1 1 9 3
+2
+Invalid state:=2 1 10
+Invalid state:=0 1 10
+Check:=3
+Invalid state:=1 2 10
+Valid state:=1 0 10
+1 0 10 4
+2
+Invalid state:=2 0 11
+Invalid state:=0 0 11
+Valid state:=1 1 11
+Invalid state:=1 -1 11
+1 1 11 3
+2
+Invalid state:=2 1 12
+Invalid state:=0 1 12
+Check:=1
+Valid state:=1 2 12
+Valid state:=1 0 12
+1 0 12 4
+3
+Invalid state:=2 0 13
+Invalid state:=0 0 13
+Valid state:=1 1 13
+Invalid state:=1 -1 13
+1 1 13 3
+3
+Invalid state:=2 1 14
+Invalid state:=0 1 14
+Check:=3
+Invalid state:=1 2 14
+Valid state:=1 0 14
+1 0 14 4
+3
+Invalid state:=2 0 15
+Invalid state:=0 0 15
+Valid state:=1 1 15
+Invalid state:=1 -1 15
+1 1 15 3
+3
+Invalid state:=2 1 16
+Invalid state:=0 1 16
+Check:=1
+Valid state:=1 2 16
+Valid state:=1 0 16
+1 0 16 4
+4
+Invalid state:=2 0 17
+Invalid state:=0 0 17
+Valid state:=1 1 17
+Invalid state:=1 -1 17
+1 1 17 3
+4
+Invalid state:=2 1 18
+Invalid state:=0 1 18
+Check:=3
+Invalid state:=1 2 18
+Valid state:=1 0 18
+1 0 18 4
+4
+Invalid state:=2 0 19
+Invalid state:=0 0 19
+Valid state:=1 1 19
+Invalid state:=1 -1 19
+1 1 19 3
+4
+Invalid state:=2 1 20
+Invalid state:=0 1 20
+Check:=1
+Valid state:=1 2 20
+Valid state:=1 0 20
+1 0 20 4
+5
+Invalid state:=2 0 21
+Invalid state:=0 0 21
+Valid state:=1 1 21
+Invalid state:=1 -1 21
+1 1 21 3
+5
+Invalid state:=2 1 22
+Invalid state:=0 1 22
+Check:=3
+Invalid state:=1 2 22
+Valid state:=1 0 22
+1 0 22 4
+5
+Invalid state:=2 0 23
+Invalid state:=0 0 23
+Valid state:=1 1 23
+Invalid state:=1 -1 23
+1 1 23 3
+5
+Invalid state:=2 1 24
+Invalid state:=0 1 24
+Check:=1
+Valid state:=1 2 24
+Valid state:=1 0 24
+1 0 24 4
+6
+Invalid state:=2 0 25
+Invalid state:=0 0 25
+Valid state:=1 1 25
+Invalid state:=1 -1 25
+1 1 25 3
+6
+Invalid state:=2 1 26
+Invalid state:=0 1 26
+Check:=3
+Invalid state:=1 2 26
+Valid state:=1 0 26
+1 0 26 4
+6
+Invalid state:=2 0 27
+Invalid state:=0 0 27
+Valid state:=1 1 27
+Invalid state:=1 -1 27
+1 1 27 3
+6
+Invalid state:=2 1 28
+Invalid state:=0 1 28
+Check:=1
+Valid state:=1 2 28
+Valid state:=1 0 28
+1 0 28 4
+7
+Invalid state:=2 0 29
+Invalid state:=0 0 29
+Valid state:=1 1 29
+Invalid state:=1 -1 29
+1 1 29 3
+7
+Invalid state:=2 1 30
+Invalid state:=0 1 30
+Check:=3
+Invalid state:=1 2 30
+Valid state:=1 0 30
+1 0 30 4
+7
+Invalid state:=2 0 31
+Invalid state:=0 0 31
+Valid state:=1 1 31
+Invalid state:=1 -1 31
+1 1 31 3
+7
+Invalid state:=2 1 32
+Invalid state:=0 1 32
+Check:=1
+Valid state:=1 2 32
+Valid state:=1 0 32
+1 0 32 4
+8
+Invalid state:=2 0 33
+Invalid state:=0 0 33
+Valid state:=1 1 33
+Invalid state:=1 -1 33
+1 1 33 3
+8
+Invalid state:=2 1 34
+Invalid state:=0 1 34
+Check:=3
+Invalid state:=1 2 34
+Valid state:=1 0 34
+1 0 34 4
+8
+Invalid state:=2 0 35
+Invalid state:=0 0 35
+Valid state:=1 1 35
+Invalid state:=1 -1 35
+1 1 35 3
+8
+Invalid state:=2 1 36
+Invalid state:=0 1 36
+Check:=1
+Valid state:=1 2 36
+Valid state:=1 0 36
+1 0 36 4
+9
+Invalid state:=2 0 37
+Invalid state:=0 0 37
+Valid state:=1 1 37
+Invalid state:=1 -1 37
+1 1 37 3
+9
+Invalid state:=2 1 38
+Invalid state:=0 1 38
+Check:=3
+Invalid state:=1 2 38
+Valid state:=1 0 38
+1 0 38 4
+9
+Invalid state:=2 0 39
+Invalid state:=0 0 39
+Valid state:=1 1 39
+Invalid state:=1 -1 39
+1 1 39 3
+9
+Invalid state:=2 1 40
+Invalid state:=0 1 40
+Check:=1
+Valid state:=1 2 40
+Valid state:=1 0 40
+1 0 40 4
+10
+Invalid state:=2 0 41
+Invalid state:=0 0 41
+Valid state:=1 1 41
+Invalid state:=1 -1 41
+1 1 41 3
+10
+Invalid state:=2 1 42
+Invalid state:=0 1 42
+Check:=3
+Invalid state:=1 2 42
+Valid state:=1 0 42
+1 0 42 4
+10
+Invalid state:=2 0 43
+Invalid state:=0 0 43
+Valid state:=1 1 43
+Invalid state:=1 -1 43
+1 1 43 3
+10
+Invalid state:=2 1 44
+Invalid state:=0 1 44
+Check:=1
+Valid state:=1 2 44
+Valid state:=1 0 44
+1 0 44 4
+11
+Invalid state:=2 0 45
+Invalid state:=0 0 45
+Valid state:=1 1 45
+Invalid state:=1 -1 45
+1 1 45 3
+11
+Invalid state:=2 1 46
+Invalid state:=0 1 46
+Check:=3
+Invalid state:=1 2 46
+Valid state:=1 0 46
+1 0 46 4
+11
+Invalid state:=2 0 47
+Invalid state:=0 0 47
+Valid state:=1 1 47
+Invalid state:=1 -1 47
+1 1 47 3
+11
+Invalid state:=2 1 48
+Invalid state:=0 1 48
+Check:=1
+Valid state:=1 2 48
+Valid state:=1 0 48
+1 0 48 4
+12
+Invalid state:=2 0 49
+Invalid state:=0 0 49
+Valid state:=1 1 49
+Invalid state:=1 -1 49
+1 1 49 3
+12
+Invalid state:=2 1 50
+Invalid state:=0 1 50
+Check:=3
+Invalid state:=1 2 50
+Valid state:=1 0 50
+1 0 50 4
+12
+Invalid state:=2 0 51
+Invalid state:=0 0 51
+Valid state:=1 1 51
+Invalid state:=1 -1 51
+1 1 51 3
+12
+Invalid state:=2 1 52
+Invalid state:=0 1 52
+Check:=1
+Valid state:=1 2 52
+Valid state:=1 0 52
+1 0 52 4
+13
+Invalid state:=2 0 53
+Invalid state:=0 0 53
+Valid state:=1 1 53
+Invalid state:=1 -1 53
+1 1 53 3
+13
+Invalid state:=2 1 54
+Invalid state:=0 1 54
+Check:=3
+Invalid state:=1 2 54
+Valid state:=1 0 54
+1 0 54 4
+13
+Invalid state:=2 0 55
+Invalid state:=0 0 55
+Valid state:=1 1 55
+Invalid state:=1 -1 55
+1 1 55 3
+13
+Invalid state:=2 1 56
+Invalid state:=0 1 56
+Check:=1
+Valid state:=1 2 56
+Valid state:=1 0 56
+1 0 56 4
+14
+Invalid state:=2 0 57
+Invalid state:=0 0 57
+Valid state:=1 1 57
+Invalid state:=1 -1 57
+1 1 57 3
+14
+Invalid state:=2 1 58
+Invalid state:=0 1 58
+Check:=3
+Invalid state:=1 2 58
+Valid state:=1 0 58
+1 0 58 4
+14
+Invalid state:=2 0 59
+Invalid state:=0 0 59
+Valid state:=1 1 59
+Invalid state:=1 -1 59
+1 1 59 3
+14
+Invalid state:=2 1 60
+Invalid state:=0 1 60
+Check:=1
+Valid state:=1 2 60
+Valid state:=1 0 60
+1 0 60 4
+15
+Invalid state:=2 0 61
+Invalid state:=0 0 61
+Valid state:=1 1 61
+Invalid state:=1 -1 61
+1 1 61 3
+15
+Invalid state:=2 1 62
+Invalid state:=0 1 62
+Check:=3
+Invalid state:=1 2 62
+Valid state:=1 0 62
+1 0 62 4
+15
+Invalid state:=2 0 63
+Invalid state:=0 0 63
+Valid state:=1 1 63
+Invalid state:=1 -1 63
+1 1 63 3
+15
+Invalid state:=2 1 64
+Invalid state:=0 1 64
+Check:=1
+Valid state:=1 2 64
+Valid state:=1 0 64
+1 0 64 4
+16
+Invalid state:=2 0 65
+Invalid state:=0 0 65
+Valid state:=1 1 65
+Invalid state:=1 -1 65
+1 1 65 3
+16
+Invalid state:=2 1 66
+Invalid state:=0 1 66
+Check:=3
+Invalid state:=1 2 66
+Valid state:=1 0 66
+1 0 66 4
+16
+Invalid state:=2 0 67
+Invalid state:=0 0 67
+Valid state:=1 1 67
+Invalid state:=1 -1 67
+1 1 67 3
+16
+Invalid state:=2 1 68
+Invalid state:=0 1 68
+Check:=1
+Valid state:=1 2 68
+Valid state:=1 0 68
+1 0 68 4
+17
+Invalid state:=2 0 69
+Invalid state:=0 0 69
+Valid state:=1 1 69
+Invalid state:=1 -1 69
+1 1 69 3
+17
+Invalid state:=2 1 70
+Invalid state:=0 1 70
+Check:=3
+Invalid state:=1 2 70
+Valid state:=1 0 70
+1 0 70 4
+17
+Invalid state:=2 0 71
+Invalid state:=0 0 71
+Valid state:=1 1 71
+Invalid state:=1 -1 71
+1 1 71 3
+17
+Invalid state:=2 1 72
+Invalid state:=0 1 72
+Check:=1
+Valid state:=1 2 72
+Valid state:=1 0 72
+1 0 72 4
+18
+Invalid state:=2 0 73
+Invalid state:=0 0 73
+Valid state:=1 1 73
+Invalid state:=1 -1 73
+1 1 73 3
+18
+Invalid state:=2 1 74
+Invalid state:=0 1 74
+Check:=3
+Invalid state:=1 2 74
+Valid state:=1 0 74
+1 0 74 4
+18
+Invalid state:=2 0 75
+Invalid state:=0 0 75
+Valid state:=1 1 75
+Invalid state:=1 -1 75
+1 1 75 3
+18
+Invalid state:=2 1 76
+Invalid state:=0 1 76
+Check:=1
+Valid state:=1 2 76
+Valid state:=1 0 76
+1 0 76 4
+19
+Invalid state:=2 0 77
+Invalid state:=0 0 77
+Valid state:=1 1 77
+Invalid state:=1 -1 77
+1 1 77 3
+19
+Invalid state:=2 1 78
+Invalid state:=0 1 78
+Check:=3
+Invalid state:=1 2 78
+Valid state:=1 0 78
+1 0 78 4
+19
+Invalid state:=2 0 79
+Invalid state:=0 0 79
+Valid state:=1 1 79
+Invalid state:=1 -1 79
+1 1 79 3
+19
+Invalid state:=2 1 80
+Invalid state:=0 1 80
+Check:=1
+Valid state:=1 2 80
+Valid state:=1 0 80
+1 0 80 4
+20
+Invalid state:=2 0 81
+Invalid state:=0 0 81
+Valid state:=1 1 81
+Invalid state:=1 -1 81
+1 1 81 3
+20
+Invalid state:=2 1 82
+Invalid state:=0 1 82
+Check:=3
+Invalid state:=1 2 82
+Valid state:=1 0 82
+1 0 82 4
+20
+Invalid state:=2 0 83
+Invalid state:=0 0 83
+Valid state:=1 1 83
+Invalid state:=1 -1 83
+1 1 83 3
+20
+Invalid state:=2 1 84
+Invalid state:=0 1 84
+Check:=1
+Valid state:=1 2 84
+Valid state:=1 0 84
+1 0 84 4
+21
+Invalid state:=2 0 85
+Invalid state:=0 0 85
+Valid state:=1 1 85
+Invalid state:=1 -1 85
+1 1 85 3
+21
+Invalid state:=2 1 86
+Invalid state:=0 1 86
+Check:=3
+Invalid state:=1 2 86
+Valid state:=1 0 86
+1 0 86 4
+21
+Invalid state:=2 0 87
+Invalid state:=0 0 87
+Valid state:=1 1 87
+Invalid state:=1 -1 87
+1 1 87 3
+21
+Invalid state:=2 1 88
+Invalid state:=0 1 88
+Check:=1
+Valid state:=1 2 88
+Valid state:=1 0 88
+1 0 88 4
+22
+Invalid state:=2 0 89
+Invalid state:=0 0 89
+Valid state:=1 1 89
+Invalid state:=1 -1 89
+1 1 89 3
+22
+Invalid state:=2 1 90
+Invalid state:=0 1 90
+Check:=3
+Invalid state:=1 2 90
+Valid state:=1 0 90
+1 0 90 4
+22
+Invalid state:=2 0 91
+Invalid state:=0 0 91
+Valid state:=1 1 91
+Invalid state:=1 -1 91
+1 1 91 3
+22
+Invalid state:=2 1 92
+Invalid state:=0 1 92
+Check:=1
+Valid state:=1 2 92
+Valid state:=1 0 92
+1 0 92 4
+23
+Invalid state:=2 0 93
+Invalid state:=0 0 93
+Valid state:=1 1 93
+Invalid state:=1 -1 93
+1 1 93 3
+23
+Invalid state:=2 1 94
+Invalid state:=0 1 94
+Check:=3
+Invalid state:=1 2 94
+Valid state:=1 0 94
+1 0 94 4
+23
+Invalid state:=2 0 95
+Invalid state:=0 0 95
+Valid state:=1 1 95
+Invalid state:=1 -1 95
+1 1 95 3
+23
+Invalid state:=2 1 96
+Invalid state:=0 1 96
+Check:=1
+Valid state:=1 2 96
+Valid state:=1 0 96
+1 0 96 4
+24
+Invalid state:=2 0 97
+Invalid state:=0 0 97
+Valid state:=1 1 97
+Invalid state:=1 -1 97
+1 1 97 3
+24
+Invalid state:=2 1 98
+Invalid state:=0 1 98
+Check:=3
+Invalid state:=1 2 98
+Valid state:=1 0 98
+1 0 98 4
+24
+Invalid state:=2 0 99
+Invalid state:=0 0 99
+Valid state:=1 1 99
+Invalid state:=1 -1 99
+1 1 99 3
+24
+Invalid state:=2 1 100
+Invalid state:=0 1 100
+Check:=1
+Valid state:=1 2 100
+Valid state:=1 0 100
+1 0 100 4
+25
+Invalid state:=2 0 101
+Invalid state:=0 0 101
+Valid state:=1 1 101
+Invalid state:=1 -1 101
+1 1 101 3
+25
+Case #1: impossible

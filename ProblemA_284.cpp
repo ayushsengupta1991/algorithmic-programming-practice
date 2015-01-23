@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,x;
+	cin>>n>>x;
+	int init=1;
+	long long int sum=0;
+	while(n--)
+	{
+		int l,r;
+		cin>>l>>r;
+		int num=(l-init)/x;
+		int curr=num*x+init;
+		sum+=(r-curr)+1;
+		init=r+1;
+	}
+	cout<<sum;
+	return 0;
+}

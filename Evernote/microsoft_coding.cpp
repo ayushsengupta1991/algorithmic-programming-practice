@@ -85,7 +85,7 @@ int main()
 				while(!bfs.empty())
 				{
 					string f = bfs.front();
-					cout<<f<<"\n";
+					cout<<bfs.front()<<" "<<bfs.back()<<"\n";
 					if(hashMap[f][tail].val){
 						cout<<"YES(Indirect)\n";
 						there = true;

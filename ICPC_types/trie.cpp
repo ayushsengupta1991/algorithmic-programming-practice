@@ -1,0 +1,115 @@
+#include<iostream>
+#include<cstdio>
+#include<string>
+#include<vector>
+using namespace std;
+struct TrieNode {
+	
+	bool leaf;
+	string word;
+	TrieNode *next[3];
+	TrieNode()
+	{
+		leaf=false;
+		word="";
+		next[0]=next[1]=next[2]=NULL;
+	}
+	
+};
+
+TrieNode* insert_string(TrieNode *root, string s, string word)
+{
+	if(root)
+	{
+		int i=0;
+		TrieNode *temp = root;
+		while(i<s.size() && temp->next[s[i]-'0'])
+			temp=temp->next[s[i++]-'0'];
+		temp->next[s[i]-'0'] = insert_string(NULL, s.substr(i+1), word);
+		return temp;
+	}	
+	else 
+	{
+		if(s[0]=='\0')
+		{
+			TrieNode *temp = new TrieNode;
+			temp->leaf=true;
+			temp->word=word;
+			return temp;
+		}
+		else
+		{
+			TrieNode *temp = new TrieNode;
+			temp->next[s[0]-'0'] = insert_string(NULL, s.substr(1), word);
+			return temp;
+		}
+	}
+}
+
+void trieTraversal(TrieNode *root, vector<string> &sol)
+{
+	if(root)
+	{
+		cout<<"In Trie Traversal\n";
+		if(root->leaf)
+		{
+			sol.push_back(root->word);
+			cout<<root->word<<"\n";
+		}
+		else
+		{
+			trieTraversal(root->next[0], sol);
+			trieTraversal(root->next[1], sol);
+			trieTraversal(root->next[2], sol);
+		}
+	}
+}
+
+vector<string> findByPrefix(TrieNode *root, string s)
+{
+	vector<string> sol;
+	int i;
+	for(i=0;i<s.size();++i)
+	{
+		if(root->next[s[i]-'0'])
+			root=root->next[s[i]-'0'];
+		else return sol;
+	}
+	trieTraversal(root,sol);
+	return sol;
+}
+
+TrieNode* insert_string_helper(TrieNode *root, string s)
+{
+	string word= s + "2";
+	return insert_string(root, s, word);
+}
+
+void print_string(vector<string> &s)
+{
+	for(int i=0;i<(int)s.size();++i)
+		cout<<s[i]<<"\n";
+}
+
+int main()
+{
+	TrieNode *root = NULL;
+	root = insert_string_helper(root,"111000011");
+	root = insert_string_helper(root,"1101000100");
+//	cout<<root<<" "<<root->next[0]<<" "<<root->next[1]<<"\n";
+	vector<string> op1 = findByPrefix(root,"11");
+	print_string(op1);
+	/*root = insert_string_helper(root,"11");
+	root = insert_string_helper(root,"0100011");
+	root = insert_string_helper(root,"11001001");
+	root = insert_string_helper(root,"111000011");
+	root = insert_string_helper(root,"01011011");
+	vector<string> op1 = findByPrefix(root,"11");
+	vector<string> op2 = findByPrefix(root,"010");
+	vector<string> op3 = findByPrefix(root,"1111");
+	print_string(op1);
+	print_string(op2);
+	print_string(op3);
+	*/
+	return 0;
+}

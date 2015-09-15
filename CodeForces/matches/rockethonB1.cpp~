@@ -1,0 +1,70 @@
+#include <cmath>
+#include <ctime>
+#include <climits>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <bitset>
+#include <cstdio>
+#include <limits>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <map>
+#include <set>
+#include <string>
+#include <cstring>
+typedef long long int LL;
+using namespace std;
+class Solution {
+    
+    vector<vector <int>> sol;
+    
+    void solve(int i,int *mark,vector<int> &temp,vector<int> num)
+    {
+        if(i==num.size())
+        {
+            sol.push_back(temp);
+            return;
+        }
+        int j;
+        for(j=0;j<num.size();j++)
+        {
+            if(mark[j]==0)
+            {
+                mark[j]=1;
+                temp[i]=num[j];
+                solve(i+1,mark,temp,num);
+                mark[j]=0;
+            }
+        }
+        return;
+    }
+    
+public:
+    vector<vector<int> > permute(vector<int> &num) {
+        
+        vector<int> temp;
+        int i;
+        for(i=0;i<num.size();i++)
+            temp.push_back(1);
+        int *mark=new int [num.size()];
+        for(i=0;i<num.size();i++)
+            mark[i]=0;
+        solve(0,mark,temp,num);
+        return sol;
+    }
+};
+int main()
+{
+	LL n,k,i;
+	cin>>n>>k;
+	string ans=getPermutation(n,k);
+	for(i=0;i<ans.size();i++)
+		cout<<ans[i]<<" ";
+	return 0;
+}
